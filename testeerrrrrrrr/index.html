@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="The personal portfolio of Alex Morgan — designer, developer, and creative technologist."
+    />
+    <meta name="theme-color" content="#09080d" />
+    <title>Fachry Adiyatma — Creative Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="scroll-progress" aria-hidden="true"><span></span></div>
+    <div class="welcome-screen" aria-hidden="true">
+      <div class="welcome-content">
+        <span class="welcome-mark">F<span>.</span></span>
+        <p class="welcome-name">FACHRY ADIYATMA <span>·</span> CREATIVE DEVELOPER</p>
+        <p class="welcome-title">Welcome<span>.</span></p>
+        <span class="welcome-rule"></span>
+        <p class="welcome-caption">DEVELOPING DIGITAL EXPERIENCES WITH FEELING</p>
+      </div>
+    </div>
+    <canvas class="starfield" aria-hidden="true"></canvas>
+    <div class="page-noise" aria-hidden="true"></div>
+    <div class="cursor-glow" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="wordmark" href="#home" aria-label="Fachry Adiyatma, home">
+        <span class="wordmark-mark">F<span>.</span></span>
+        <span class="wordmark-name">FACHRY ADIYATMA</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+        <span></span><span></span>
+        <span class="sr-only">Toggle navigation</span>
+      </button>
+      <nav class="nav-links" id="primary-nav" aria-label="Main navigation">
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a class="nav-availability" href="#contact"><span></span> Available for work</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section-shell" id="home">
+        <div class="hero-orbit orbit-one" aria-hidden="true"></div>
+        <div class="hero-orbit orbit-two" aria-hidden="true"></div>
+        <div class="cloud-scene" role="img" aria-label="VS Code, Minecraft, and Blender icons floating above a purple cloud">
+          <div class="cloud-platform" aria-hidden="true">
+            <span class="cloud-puff cloud-puff-left"></span>
+            <span class="cloud-puff cloud-puff-center"></span>
+            <span class="cloud-puff cloud-puff-right"></span>
+            <span class="cloud-base"></span>
+          </div>
+          <img class="cloud-app cloud-app-vscode" src="assets/vscode.png" alt="" />
+          <img class="cloud-app cloud-app-minecraft" src="assets/minecraft.png" alt="" />
+          <img class="cloud-app cloud-app-blender" src="assets/blender.png" alt="" />
+          <span class="cloud-spark cloud-spark-one" aria-hidden="true">✦</span>
+          <span class="cloud-spark cloud-spark-two" aria-hidden="true">✧</span>
+          <span class="cloud-caption" aria-hidden="true">MADE WITH A LITTLE MAGIC</span>
+        </div>
+        <div class="hero-content">
+          <p class="eyebrow reveal"><span class="eyebrow-line"></span> INDEPENDENT CREATIVE DEVELOPER</p>
+          <h1 class="hero-title reveal">
+            I make developer<br />
+            feel <span class="italic-word">Funny<span class="title-period">.</span></span>
+          </h1>
+          <div class="hero-bottom reveal">
+            <p class="hero-intro">
+              Designer and developer crafting distinctive digital experiences
+              with a little extra <span>feeling.</span>
+            </p>
+            <a class="round-link" href="#work" aria-label="Explore selected work">
+              <span class="round-link-label">EXPLORE<br />MY WORK</span>
+              <span class="round-link-icon" aria-hidden="true">↘</span>
+            </a>
+          </div>
+        </div>
+        <div class="hero-side-note" aria-hidden="true">INDEPENDENT BY DESIGN · 2025—26</div>
+        <div class="hero-scroll" aria-hidden="true"><span></span> SCROLL TO EXPLORE</div>
+      </section>
+
+      <section class="ticker" aria-label="What I do">
+        <div class="ticker-track">
+          <span>DESIGN WITH INTENTION</span><i>✳</i><span>DEVELOP WITH FEELING</span><i>✳</i>
+          <span>DESIGN WITH INTENTION</span><i>✳</i><span>DEVELOP WITH FEELING</span><i>✳</i>
+          <span>DESIGN WITH INTENTION</span><i>✳</i><span>DEVELOP WITH FEELING</span><i>✳</i>
+        </div>
+      </section>
+
+      <section class="work-section section-shell" id="work">
+        <div class="section-heading reveal">
+          <div>
+            <p class="eyebrow"><span class="eyebrow-line"></span> A FEW THINGS I’VE MADE</p>
+            <h2>Selected <span class="italic-word">work</span><span class="title-period">.</span></h2>
+          </div>
+          <p class="section-aside">01 — 03<br />A considered mix of strategy, design, and code.</p>
+        </div>
+
+        <div class="project-grid">
+          <a class="project-card project-card-wide reveal" href="#contact" aria-label="Discuss the Luma project">
+            <span class="project-image-frame">
+              <img
+                class="project-image"
+                src="assets/luma-project.png"
+                alt="Luma branding with a soft sunset gradient and circular artwork."
+                loading="lazy"
+                decoding="async"
+              />
+              <span class="project-image-border" aria-hidden="true"></span>
+            </span>
+            <div class="project-meta">
+              <div><h3>Luma</h3><p>Making clean energy feel human.</p></div>
+              <span>BRAND IDENTITY · WEB DESIGN · 2025</span>
+            </div>
+          </a>
+
+          <a class="project-card reveal" href="#contact" aria-label="Discuss the Forme project">
+            <span class="project-image-frame">
+              <img
+                class="project-image"
+                src="assets/forme-project.png"
+                alt="Forme product design, featuring a movement practice website."
+                loading="lazy"
+                decoding="async"
+              />
+              <span class="project-image-border" aria-hidden="true"></span>
+            </span>
+            <div class="project-meta">
+              <div><h3>Forme</h3><p>A movement practice for real life.</p></div>
+              <span>PRODUCT DESIGN · 2025</span>
+            </div>
+          </a>
+
+          <a class="project-card reveal" href="#contact" aria-label="Discuss the Otherworld project">
+            <span class="project-image-frame">
+              <img
+                class="project-image"
+                src="assets/otherworld-project.png"
+                alt="Otherworld experimental web identity with a glowing purple planet."
+                loading="lazy"
+                decoding="async"
+              />
+              <span class="project-image-border" aria-hidden="true"></span>
+            </span>
+            <div class="project-meta">
+              <div><h3>Otherworld</h3><p>An identity for the in-between.</p></div>
+              <span>CREATIVE DEVELOPMENT · 2024</span>
+            </div>
+          </a>
+        </div>
+        <p class="work-note reveal"><span>↳</span> These are concept projects. Want to make something real? <a href="#contact">Let’s talk.</a></p>
+      </section>
+
+      <section class="about-section" id="about">
+        <div class="about-inner section-shell">
+          <div class="about-label reveal">
+            <p class="eyebrow"><span class="eyebrow-line"></span> A LITTLE ABOUT ME</p>
+            <span class="about-index">[ 01 — 04 ]</span>
+          </div>
+          <div class="about-main reveal">
+            <h2>Curious by nature.<br />Intentional by <span class="italic-word">design.</span></h2>
+            <p class="about-copy">
+              I’m Fachry, an independent designer and creative developer who cares
+              about the details as much as the big idea. I bring strategy,
+              visual identity, and front-end craft together to make work that
+              feels unmistakably itself.
+            </p>
+            <div class="about-details">
+              <div><span class="detail-label">CURRENTLY</span><span>Taking on select projects</span></div>
+              <div><span class="detail-label">BASED IN</span><span>Brooklyn, NY · Working everywhere</span></div>
+              <div><span class="detail-label">IN MY TOOLKIT</span><span>Figma, Framer, HTML, CSS, JS</span></div>
+            </div>
+          </div>
+          <div class="about-stamp" aria-hidden="true"><span>GOOD<br />THINGS<br />TAKE<br /><i>feeling</i></span><b>✳</b></div>
+        </div>
+      </section>
+
+      <section class="contact-section section-shell" id="contact">
+        <p class="eyebrow reveal"><span class="eyebrow-line"></span> HAVE A GOOD ONE IN MIND?</p>
+        <div class="contact-heading-wrap reveal">
+          <h2>Let’s make<br />some <span class="italic-word">noise</span><span class="title-period">.</span></h2>
+          <a class="contact-orb" href="mailto:hello@example.com" aria-label="Email Fachry Adiyatma">
+            <span>START A<br />CONVERSATION</span><b aria-hidden="true">↗</b>
+          </a>
+        </div>
+        <div class="contact-bottom">
+          <p>Have a project, a question, or just want to say hi?<br /><a href="mailto:hello@example.com">hello@example.com</a></p>
+          <div class="social-links">
+            <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">INSTAGRAM <span>↗</span></a>
+            <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LINKEDIN <span>↗</span></a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="footer-mark" href="#home">F<span>.</span></a>
+      <span>DESIGNED WITH INTENTION, BUILT WITH FEELING.</span>
+      <span>© <span id="year">2025</span> FACHRY ADIYATMA</span>
+      <a class="back-top" href="#home">BACK TO TOP ↑</a>
+    </footer>
+  </body>
+</html>
